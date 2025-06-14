@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="images/icons/FEZ.png" type="image/png" />
+  <title>Contact Us - Frontend Zambia</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="contact.css" />
+  
+  <!-- Updated Font Awesome CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-papb2djC+z+aQV2Z5vqlRQnmXps5ecIOaDw+Zl4JKkiDdPLqAa6ej+pN1h0aNftHeFtuH0MsyODq8jkZ3xrC5Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <img src="images/icons/fez.png" alt="Frontend Zambia Logo" width="80" />
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <div class="container">
+    <div class="left">
+      <h2>Frontend Zambia Ltd</h2>
+      <h1>Have Questions? Contact Us</h1>
+      <p>We’re committed to driving innovation and empowering tomorrow. Whether you're a client, partner, or enthusiast — we’d love to hear from you.</p>
+      <div class="contact-details">
+        <div><i class="fas fa-map-marker-alt"></i><strong> Address:</strong><br>Meanwood Kwamwena Valley, Lusaka, Zambia</div>
+        <div><i class="fas fa-phone"></i><strong> Phone:</strong> +260 77 157 6679</div>
+        <div><i class="fas fa-phone"></i><strong> Phone:</strong> +260 76 957 7471</div>
+        <div><i class="fas fa-envelope"></i><strong> Email:</strong> frontendzambia@gmail.com</div>
+
+        <!-- Social Media Buttons -->
+        <div class="social-media">
+  <a href="https://web.facebook.com/Frontendzambia" target="_blank" aria-label="Facebook" class="facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://x.com/frontendzambia" target="_blank" aria-label="X (Twitter)" class="x">
+    <i class="fab fa-x-twitter"></i> <!-- Font Awesome 6 uses fa-x-twitter for X -->
+  </a>
+  <a href="https://www.instagram.com/frontendzambia/" target="_blank" aria-label="Instagram" class="instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/frontend-zambia-a63659362" target="_blank" aria-label="LinkedIn" class="linkedin">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <div class="right">
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name" />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Write your message..."></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
+
